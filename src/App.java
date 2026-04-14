@@ -27,6 +27,16 @@ public class App {
         }
         System.out.println("");
         //Write your code below here
+        int greater = Integer.valueOf(scanner.nextLine());
+        ArrayList<Integer> second = new ArrayList<>();
+        for (Integer num : values) {
+            if (num > greater) {
+                second.add(num);
+            }
+        }
+       for (Integer print : second) {
+        System.out.println(print);
+       }
 
 
 
